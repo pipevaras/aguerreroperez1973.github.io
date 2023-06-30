@@ -1,0 +1,51 @@
+
+    body {
+        margin: auto;
+        width: 80%;
+        height: 60%;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        border: solid 1px #ddd;
+    }   
+
+   /* encabezado de la pagina*/
+    .header {
+        height: 7em;
+        font-size: 2em;
+        background-image: url("../imgs/portada_2.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        color: blue;
+        background-color: rgb(197, 231, 231);
+    }
+   
+   .header h1, p {
+        margin: 0px;
+    }
+    
+    /*Detalle de productos*/
+    /*tabla de productos*/
+    .products {
+        width: 80%;
+        margin: auto;
+    }
+
+    .products td {
+        width: 50%;
+        padding: 2em;
+    }
+
+    .products img {
+        width: 100%;
+        border: solid 1px #ddd;
+    }
+
+    /* pie de tabla */
+    .footer {
+        height: 3em;
+        line-height: 3em;
+        background-color: rgb(197, 231, 231);
+        color: blue;
+        text-align: center;
+        font-weight: 900;
+    }

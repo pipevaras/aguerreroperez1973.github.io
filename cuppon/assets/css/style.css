@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+/* header */
+header{
+    margin: auto;
+    justify-content: center;
+    max-width: 1280px;
+    min-width: 320px;
+}
+
+nav {
+    background-color: #28a745;
+    font: normal normal 500 16px/20px Roboto;
+    max-width: 1280px;
+    min-width: 320px;
+}
+
+/* main*/
+main{
+    margin: auto;
+    justify-content: center;
+    max-width: 1280px;
+    min-width: 220px;
+}   
+
+.card {
+    width: 22rem;
+}
+
+.card-text{
+    color: #707070;
+}
+
+i{
+    color: #707070;
+ }
+ 
+.direccion {
+    display: flex;
+    font: normal normal 300 13px/20px Roboto;
+}
+.valores {
+    height: 56px;
+}
+
+.oferta {
+    font: normal normal 500 20px/20px Roboto;
+    color:#28a745;
+}
+
+.precio {
+    color: #707070;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.form-check {
+    background-color: #28a745;
+    color: white;
+}
+
+/* footer */
+.boton {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.footertext {
+    display: flex;
+    justify-content: center;
+    color: #707070;
+}

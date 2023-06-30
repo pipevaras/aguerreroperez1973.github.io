@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+main {
+    margin: 0px auto;
+    max-width: 1280px;
+    min-width: 220px;
+    height: 1937px;
+    justify-content: center;
+}   
+
+/* ENCABEZADO */
+.encabezado {
+    margin: auto;
+    width: 1280px;
+    height: 73px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+h1 {
+    margin: 7px 529px 0px 530px;
+    width: 221px;
+    height: 59px;
+    text-align: left;
+    font: normal normal 500 50px/59px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* PRIMERA GALERIA */
+.galeria1 {
+    display: flex;
+    width: 1280px;
+    height: 727px;
+    background: transparent url('../imgs/bg-header1.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/* SEGUNDA GALERIA */
+.galeria2 {
+    display: flex;
+    justify-content:space-around;
+    width: 1280px;
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.box {
+    margin: 76px 53px 75px 150px;
+    width: 475px;
+    height: 197px;
+    text-align: left;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.image {
+    margin: 46px 150px 66px 53px;
+    width: 399px;
+    height: 237px;
+    background: transparent url('../imgs/iguana-1B.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/* TERCERA GALERIA */
+.galeria3 {
+    margin: 0px 0px 0px 0px;
+    justify-content: space-around;
+    width: 1280px;
+    height: 347px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+}
+
+.titulog3 {
+    display: flex;
+    width: 1280px;
+    height: 172px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+}
+
+h2 {
+    margin: 65px 460.5px 0px 463.5px;
+    text-align: center;
+    font: normal normal 500 40px/47px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.icons {
+    margin: 12px 0px 0px 0px;
+    display: flex;
+    height: 175px;
+    justify-content: space-around;
+    text-align: center;
+    font: normal normal 300 24px/29px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.texticon {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.icon1{
+    margin: 12px 91px 0px 301px;
+}
+
+.icon2{
+    margin: 12px 73px 0px 91px;
+}
+
+.icon3{
+    margin: 12px 243px 0px 73px;
+}
+
+/* CUARTA GALERIA */
+.galeria4 {
+    display: flex;
+    justify-content: space-around;
+    width: 1280px;
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+}
+
+.iguana2 {
+    margin: 73px 8px 73px 150px;
+    width: 316px;
+    height: 202px;
+    background: transparent url('../imgs/iguana-2.jpg') 0% 0% no-repeat padding-box;
+    background-size: 316px 202px;
+    opacity: 1;
+}
+
+.iguana3 {
+    margin: 73px 8px 73px 8px;
+    width: 316px;
+    height: 202;
+    background: transparent url('../imgs/iguana-3.jpg') 0% 0% no-repeat padding-box;
+    background-size: 316px 202px;
+    opacity: 1;
+}
+
+.iguana4 {
+    margin: 73px 150px 73px 8px;
+    width: 316px;
+    height: 202;
+    background: transparent url('../imgs/iguana-4.jpg') 0% 0% no-repeat padding-box;
+    background-size: 316px 202px;
+    opacity: 1;
+}
+
+/* footheaders */
+footer {
+    display: flex;
+    width: 1280px;
+    height: 102px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+}
+
+.textfoot {
+    margin: 39px 299px 39px 299px;
+    display: flex;
+    width: 682px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
