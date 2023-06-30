@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+nav {
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    height: 73px;    
+}
+
+main {
+    margin: 0px auto;
+    max-width: 1280px;
+    min-width: 220px;
+    height: 1937px;
+}   
+
+/* ENCABEZADO */
+.encabezado {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    height: 73px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+h1 {
+    margin: 7px 400px 0px 430px;
+    width: 721px;
+    height: 59px;
+    text-align: left;
+    font: normal normal 500 50px/59px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* SEGUNDA GALERIA */
+.galeria2 {
+    display: flex;
+    justify-content:space-around;
+    width: 1280px;
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.box {
+    margin: auto;
+    width: 475px;
+    height: 197px;
+    text-align: left;
+    font: normal normal 300 24px/19px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.image {
+    margin: auto;
+    justify-content: center;
+    width: 475px;
+    height: 316px;
+    background: transparent url('../imgs/micurri.jpg') 0% 0% no-repeat padding-box;
+    background-size: 317px 316px;
+    opacity: 1;
+}
+
+.image2 {
+    margin: auto;
+    justify-content: center;
+    width: 475px;
+    height: 316px;
+    background: transparent url('../imgs/iguanapage.jpg') 0% 0% no-repeat padding-box;
+    background-size: 210px 300px;
+    opacity: 1;
+}
+
+.image3 {
+    margin: 46px 150px 66px 53px;
+    width: 475px;
+    height: 316px;
+    background: transparent url('../imgs/landingpage.PNG') 0% 0% no-repeat padding-box;
+    background-size: 316px 202px;
+    opacity: 1;
+}
+
+.image4 {
+    margin: 46px 150px 66px 53px;
+    width: 475px;
+    height: 316px;
+    background: transparent url('../imgs/cuppon.jpg') 0% 0% no-repeat padding-box;
+    background-size: 316px 202px;
+    opacity: 1;
+}
+
+/* footheaders */
+footer {
+    display: flex;
+    width: 1280px;
+    height: 102px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+}
+
+.textfoot {
+    margin: 39px 299px 39px 299px;
+    display: flex;
+    justify-content: center;
+    width: 682px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
