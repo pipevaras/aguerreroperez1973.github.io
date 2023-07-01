@@ -2,13 +2,13 @@ body {
     margin: 0px auto;
     max-width: 900px;
     min-width: 220px;
-    height: 1024px;
+    /*height: 1024px;*/
     justify-content: center;
 }
 
 .navbar {
     margin: 0 100 0 100;
-    height: 60px;
+    /*height: 60px;*/
 }
 
 h1 {
@@ -20,7 +20,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: right;
-    height: 280px;
+    height: 220px;
 }
 
 main {
@@ -29,7 +29,7 @@ main {
 
 .mistrabajos {
     background-color: darkgray;
-    height: 404px;
+    /*height: 404px;*/
     background-repeat: no-repeat;
     background-size: cover;
     padding: auto;
